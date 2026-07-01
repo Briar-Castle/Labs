@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Unica One';
+    src: url('assets/fonts/UnicaOne-Regular.woff2') format('woff2'),
+        url('assets/fonts/UnicaOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Mono';
+    src: url('assets/fonts/PTMono-Regular.woff2') format('woff2'),
+        url('assets/fonts/PTMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Intel One Mono';
+    src: url('assets/fonts/IntelOneMono-Regular.woff2') format('woff2'),
+        url('assets/fonts/IntelOneMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Intel One Mono';
+    src: url('assets/fonts/IntelOneMono-LightItalic.woff2') format('woff2'),
+        url('assets/fonts/IntelOneMono-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Instrument Serif';
+    src: url('assets/fonts/InstrumentSerif-Regular.woff2') format('woff2'),
+        url('assets/fonts/InstrumentSerif-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Instrument Sans';
+    src: url('assets/fonts/InstrumentSans-Regular.woff2') format('woff2'),
+        url('assets/fonts/InstrumentSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Funnel Sans';
+    src: url('assets/fonts/FunnelSans-LightItalic.woff2') format('woff2'),
+        url('assets/fonts/FunnelSans-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
