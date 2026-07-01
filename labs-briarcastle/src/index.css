@@ -1,0 +1,18 @@
+:root {
+  --darkestBlue: #1D2433;
+  --spaceIndigo: #242E42;
+  --dustyDenim: #748CAB;
+  --softBlush: #E7D7D9;
+  --burntPeach: #F37145;
+  --tangerineDream: #F0A085;
+  --lightCoral: #EE808E;
+  --tuscanSun: #EBC36C;
+  --mintLeaf: #48B78A;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 0 240px 0;
+  background-color: var(--darkestBlue);
+}
