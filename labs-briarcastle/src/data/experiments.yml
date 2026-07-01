@@ -1,0 +1,249 @@
+# ======================================================================================
+#                               EXP-001 LABORATORY (Featured)
+# ======================================================================================
+
+# Identity
+cards:
+  - id: EXP-001
+    slug: laboratory
+    name: Laboratory
+    purpose: >
+      A serialized index for all technical projects
+      associated with Briar Castle.
+
+    description: >
+      Long-form description of the project.
+      Supports multiple lines.
+
+
+
+    # Status
+
+    status: in-progress           # active | in-progress | archived
+    featured: true
+    visibility: public       # public | private | internal
+
+    version: 0.1.0
+
+
+
+    # Timeline
+
+    created: 2026-07-12
+    updated: 2026-07-15
+    published: 2026-07-18
+
+
+
+    # Classification
+
+    category:
+      - website
+
+    stack:
+      - bundler: Vite
+
+      - frameworks:
+        - React
+      
+      - third_party:
+          libraries:
+          - zod
+          - yaml
+          
+          components:
+          - lucide-react
+        
+      - platforms:
+          web:
+            frontend:
+            - github Pages
+          
+
+      - languages:
+        - TypeScript
+        - Vanilla CSS
+        - YAML
+
+    topics:
+      - Archive
+      - Technical
+      - Index
+      - Documentation
+      - Portfolio
+
+    series:
+      - Briar Castle
+
+    license: MIT
+
+
+
+    # Links
+
+    links:
+      website: https://labs.briarcastle.com
+      github: https://github.com/DODO-unique/Labs
+      documentation: https://tech.garden.briarcastle.com/laboratory
+      design: https://tech.garden.briarcastle.com/laboratory/design
+
+
+
+
+    # Media
+
+    media:
+      thumbnail: thumbnail.webp
+      banner: banner.webp
+      icon: icon.svg
+
+
+
+    # Display
+
+    thumbnail: true
+    order: 1
+
+
+
+    # Search / Filters
+
+    tags:
+      - ui
+      - frontend
+
+
+    repository:
+      stars:
+      forks:
+
+    completion: 30
+
+    reading_time: 5
+
+    notes:
+      - First public release
+      - Complete rewrite planned
+
+
+    
+#=================================================================================================================
+#                                   EXP-002 BRIAR CASTLE (featured)
+#=================================================================================================================
+  - id: EXP-002
+    slug: briarcastle
+    name: Briar Castle
+    purpose: >
+      Home Page for the briarcastle domain.
+      Provides addresses to three immediate subdomains and relevant links.
+    
+    description: >
+      Pending
+
+    #status
+    status: active
+    featured: true
+    visibility: public
+
+    version: 0.1.0
+
+    # Timeline
+
+    created: 2026-06-28
+    updated: 2026-06-29
+    published: 2026-06-29
+
+    # Classification
+
+    category:
+      - website
+    
+    stack:
+      - bundler: Vite
+
+      - frameworks:
+        - React
+      
+      - third_party:
+          components:
+          - lucide-react
+
+      - platforms:
+          web:
+            frontend:
+              - github Pages
+
+      - languages:
+        - TypeScript
+        - Vanilla CSS
+        - YAML
+
+    topics:
+      - Home Page
+      - Website
+      - Landing Pages
+      - Static Website
+      - Frontend
+      - React
+    
+    series:
+      - Briar Castle
+    
+    license: MIT
+
+    links: 
+      website: https://briarcastle.com
+      github: https://github.com/DODO-unique/BriarCastle
+      documentation: https://tech.garden.briarcastle.com/briarcastle
+      design: https://tech.garden.briarcastle.com/briarcastle/design
+
+    # section TBH
+    media:
+      thumbnail: thumbnail.webp
+      banner: banner.webp
+      icon: icon.svg
+    
+    thumbnail: true
+    order: 2
+
+    # replaceable by topics. TBH
+    tags:
+      - ui
+      - frontend
+    
+    repository:
+      stars:
+      forks:
+
+    completion: 100
+
+    reading_time: 5
+
+    notes:
+      - Read version docs.
+#=================================================================================================================
+#                                   EXP-004 Creature Registry
+#=================================================================================================================
+#=================================================================================================================
+#                                   EXP-005 
+#=================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#=================================================================================================================
+#                                   EXP-003 PROPER (featured)
+#=================================================================================================================
