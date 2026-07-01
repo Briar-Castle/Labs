@@ -1,0 +1,38 @@
+/* Coolors Exported Palette - https://coolors.co/1d2433-273247-748cab-e7d7d9-dd6451 */
+
+- CSV
+
+1d2433,273247,748cab,e7d7d9,dd6451
+
+- With #
+
+#1d2433, #273247, #748cab, #e7d7d9, #dd6451
+
+- Array
+
+["1d2433","273247","748cab","e7d7d9","dd6451"]
+
+- Object
+
+{"Shadow Grey":"1d2433","Deep Space Blue":"273247","Dusty Denim":"748cab","Soft Blush":"e7d7d9","Rosy Copper":"dd6451"}
+
+- Extended Array
+
+[{"name":"Shadow Grey","hex":"1d2433","rgb":[29,36,51],"cmyk":[43,29,0,80],"hsb":[221,43,20],"hsl":[221,28,16],"lab":[14,2,-11]},{"name":"Deep Space Blue","hex":"273247","rgb":[39,50,71],"cmyk":[45,30,0,72],"hsb":[219,45,28],"hsl":[219,29,22],"lab":[21,2,-15]},{"name":"Dusty Denim","hex":"748cab","rgb":[116,140,171],"cmyk":[32,18,0,33],"hsb":[214,32,67],"hsl":[214,25,56],"lab":[57,-1,-19]},{"name":"Soft Blush","hex":"e7d7d9","rgb":[231,215,217],"cmyk":[0,7,6,9],"hsb":[353,7,91],"hsl":[353,25,87],"lab":[87,6,1]},{"name":"Rosy Copper","hex":"dd6451","rgb":[221,100,81],"cmyk":[0,55,63,13],"hsb":[8,63,87],"hsl":[8,67,59],"lab":[57,46,34]}]
+
+- XML
+
+<palette>
+  <color name="Shadow Grey" hex="1d2433" r="29" g="36" b="51" />
+  <color name="Deep Space Blue" hex="273247" r="39" g="50" b="71" />
+  <color name="Dusty Denim" hex="748cab" r="116" g="140" b="171" />
+  <color name="Soft Blush" hex="e7d7d9" r="231" g="215" b="217" />
+  <color name="Rosy Copper" hex="dd6451" r="221" g="100" b="81" />
+</palette>
+
+
+
+EXTRA:
+#48B78A for Deployed
+#EBC36C for In Progress 
+#EE808E for Archived
