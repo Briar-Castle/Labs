@@ -1,0 +1,112 @@
+# ===========================================
+# Identity
+# ===========================================
+
+id: EXP-001
+slug: laboratory
+name: Laboratory
+purpose: >
+  A serialized index for all technical projects
+  associated with Briar Castle.
+
+description: >
+  Long-form description of the project.
+  Supports multiple lines.
+
+# ===========================================
+# Status
+# ===========================================
+
+status: active           # active | in-progress | archived
+featured: true
+visibility: public       # public | private | internal
+
+version: 0.1.0
+
+# ===========================================
+# Timeline
+# ===========================================
+
+created: 2026-07-12
+updated: 2026-07-15
+published: 2026-07-18
+
+# ===========================================
+# Classification
+# ===========================================
+
+category:
+  - website
+
+platforms:
+  - web
+
+languages:
+  - TypeScript
+  - Vanilla CSS
+  - YAML
+
+frameworks:
+  - React
+
+topics:
+  - Archive
+  - Documentation
+  - Portfolio
+
+series:
+  - Briar Castle
+
+license: MIT
+
+# ===========================================
+# Links
+# ===========================================
+
+links:
+  website: https://labs.briarcastle.com
+  github: https://github.com/DODO-unique/Labs
+  documentation: https://tech.garden.briarcastle.com/laboratory
+  design: https://tech.garden.briarcastle.com/laboratory/design
+  demo:
+  npm:
+
+# ===========================================
+# Media
+# ===========================================
+
+media:
+  thumbnail: thumbnail.webp
+  banner: banner.webp
+  icon: icon.svg
+
+# ===========================================
+# Display
+# ===========================================
+
+thumbnail: true | false
+order: 1
+
+# ===========================================
+# Search / Filters
+# ===========================================
+
+tags:
+  - ui
+  - frontend
+
+# ===========================================
+# Optional
+# ===========================================
+
+repository:
+  stars:
+  forks:
+
+completion: 100
+
+reading_time: 5
+
+notes:
+  - First public release
+  - Complete rewrite planned
