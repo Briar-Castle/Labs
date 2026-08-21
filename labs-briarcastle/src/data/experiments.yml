@@ -1,37 +1,125 @@
+#=================================================================================================================
+#                                   EXP-001 BRIAR CASTLE
+#=================================================================================================================
+cards:
+  - id: EXP-001
+    order: 1
+    slug: briarcastle
+    name: Briar Castle    
+    description: >
+      Home Page for the briarcastle domain.
+      Provides addresses to three immediate subdomains and relevant links.
+
+    #status
+    status: active
+    featured: false
+    visibility: public
+
+    version: v0.1.0
+
+    # Timeline
+
+    created: 2026-06-28
+    updated: 2026-06-29
+    published: 2026-06-29
+
+    # Classification
+
+    category:
+      - website
+    
+    stack:
+      bundler: Vite
+
+      frameworks:
+            - React
+          
+      third_party:
+              components:
+              - lucide-react
+
+      platforms:
+              web:
+                frontend:
+                  - github Pages
+
+      languages:
+            - TypeScript
+            - Vanilla CSS
+            - YAML
+
+    topics:
+      - Home Page
+      - Website
+      - Landing Pages
+      - Static Website
+      - Frontend
+      - React
+    
+    series:
+      - Briar Castle
+    
+    license: MIT
+
+    links: 
+      website: 
+        name: Briar Castle
+        link: "https://briarcastle.com"
+        unavailable: false
+      github: 
+        name: BriarCastle
+        link: "https://github.com/DODO-unique/BriarCastle"
+        unavailable: false
+      documentation: 
+        name: "[Releasing soon]"
+        link: "https://tech.garden.briarcastle.com/briarcastle"
+        unavailable: true
+      design: 
+        name: "[Releasing soon]"
+        link: "https://tech.garden.briarcastle.com/briarcastle/design"
+        unavailable: true
+    
+    thumbnail: true
+    thumbnail_img: /images/exp-001.webp
+    
+
+    completion: 100
+
+    reading_time: 5
+
+    notes:
+      - Read versioning docs.
+
+
 # ======================================================================================
-#                               EXP-001 LABORATORY (Featured)
+#                               EXP-002 LABORATORY
 # ======================================================================================
 
 # Identity
-cards:
-  - id: EXP-001
+  - id: EXP-002
+    order: 2
     slug: laboratory
     name: Laboratory
-    purpose: >
-      A serialized index for all technical projects
-      associated with Briar Castle.
-
     description: >
-      Long-form description of the project.
-      Supports multiple lines.
-
+      A collection of experiments, prototypes, and technical documentation.
+      Content not limited to the Briar Castle domain, and may include other projects and experiments.
 
 
     # Status
 
-    status: in-progress           # active | in-progress | archived
-    featured: true
+    status: active           # active | inProgress | archived
+    featured: false
     visibility: public       # public | private | internal
 
-    version: 0.1.0
+    version: v0.1.0
 
 
 
     # Timeline
 
-    created: 2026-07-12
-    updated: 2026-07-15
-    published: 2026-07-18
+    created: 2026-07-07
+    updated: 2026-07-07
+    published: 2026-07-07
 
 
 
@@ -41,26 +129,27 @@ cards:
       - website
 
     stack:
-      - bundler: Vite
+      bundler: Vite
 
-      - frameworks:
+      frameworks:
         - React
       
-      - third_party:
+      third_party:
           libraries:
           - zod
           - yaml
           
           components:
           - lucide-react
+          - lenis
         
-      - platforms:
+      platforms:
           web:
             frontend:
             - github Pages
           
 
-      - languages:
+      languages:
         - TypeScript
         - Vanilla CSS
         - YAML
@@ -82,42 +171,34 @@ cards:
     # Links
 
     links:
-      website: https://labs.briarcastle.com
-      github: https://github.com/DODO-unique/Labs
-      documentation: https://tech.garden.briarcastle.com/laboratory
-      design: https://tech.garden.briarcastle.com/laboratory/design
-
-
-
-
-    # Media
-
-    media:
-      thumbnail: thumbnail.webp
-      banner: banner.webp
-      icon: icon.svg
-
-
+      website: 
+        name: Laboratory
+        link: "https://labs.briarcastle.com"
+        unavailable: false
+      github: 
+        name: Labs
+        link: "https://github.com/DODO-unique/Labs"
+        unavailable: false
+      documentation: 
+        name: "[Releasing soon]"
+        link: "https://tech.garden.briarcastle.com/laboratory"
+        unavailable: true
+      design: 
+        name: "[Releasing soon]"
+        link: "https://tech.garden.briarcastle.com/laboratory/design"
+        unavailable: true
 
     # Display
 
     thumbnail: true
-    order: 1
-
-
+    thumbnail_img: /images/exp-001.webp
 
     # Search / Filters
 
-    tags:
-      - ui
-      - frontend
 
 
-    repository:
-      stars:
-      forks:
 
-    completion: 30
+    completion: 90
 
     reading_time: 5
 
@@ -126,124 +207,462 @@ cards:
       - Complete rewrite planned
 
 
-    
-#=================================================================================================================
-#                                   EXP-002 BRIAR CASTLE (featured)
-#=================================================================================================================
-  - id: EXP-002
-    slug: briarcastle
-    name: Briar Castle
-    purpose: >
-      Home Page for the briarcastle domain.
-      Provides addresses to three immediate subdomains and relevant links.
-    
-    description: >
-      Pending
-
-    #status
-    status: active
-    featured: true
-    visibility: public
-
-    version: 0.1.0
-
-    # Timeline
-
-    created: 2026-06-28
-    updated: 2026-06-29
-    published: 2026-06-29
-
-    # Classification
-
-    category:
-      - website
-    
-    stack:
-      - bundler: Vite
-
-      - frameworks:
-        - React
-      
-      - third_party:
-          components:
-          - lucide-react
-
-      - platforms:
-          web:
-            frontend:
-              - github Pages
-
-      - languages:
-        - TypeScript
-        - Vanilla CSS
-        - YAML
-
-    topics:
-      - Home Page
-      - Website
-      - Landing Pages
-      - Static Website
-      - Frontend
-      - React
-    
-    series:
-      - Briar Castle
-    
-    license: MIT
-
-    links: 
-      website: https://briarcastle.com
-      github: https://github.com/DODO-unique/BriarCastle
-      documentation: https://tech.garden.briarcastle.com/briarcastle
-      design: https://tech.garden.briarcastle.com/briarcastle/design
-
-    # section TBH
-    media:
-      thumbnail: thumbnail.webp
-      banner: banner.webp
-      icon: icon.svg
-    
-    thumbnail: true
-    order: 2
-
-    # replaceable by topics. TBH
-    tags:
-      - ui
-      - frontend
-    
-    repository:
-      stars:
-      forks:
-
-    completion: 100
-
-    reading_time: 5
-
-    notes:
-      - Read version docs.
-#=================================================================================================================
-#                                   EXP-004 Creature Registry
-#=================================================================================================================
-#=================================================================================================================
-#                                   EXP-005 
-#=================================================================================================================
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #=================================================================================================================
 #                                   EXP-003 PROPER (featured)
 #=================================================================================================================
+
+  - id: "EXP-003"
+    slug: "proper"
+    name: "PROPER"
+    description: >
+      A markdown parser created to convert markdown files into printable html in bulk.
+
+    status: "active"
+    featured: true
+    visibility: "public"
+
+    version: "v0.1.0"
+
+    created: 2026-06-15
+    updated: 2026-06-19
+    published: 2026-06-16
+
+    category: [
+      website
+    ]
+    stack:
+      bundler: "Vite" # optional
+      frameworks: [
+        React,
+        FastAPI
+      ] # optional
+      third_party: # optional
+        libraries: [
+          markdown (python),
+          uvicorn (python),
+          lucide-react,
+          react-dropzone,
+        ] # optional
+        components: [
+          react-dropzone (frontend),
+          lucide-react (frontend),
+        ] # optional
+      platforms: # optional
+        web: # optional
+          backend: 
+            - Railway
+          frontend: 
+            - Vercel
+      languages: [
+        TypeScript,
+        Python
+      ]
+
+    topics: 
+      - Markdown Parser
+      - Utility Tool
+      - File Converter
+
+    series: [utility-tool]
+
+    license: MIT
+
+    links:
+      website:
+        name: "PROPER"
+        link: "https://proper.labs.briarcastle.com"
+        unavailable: false
+      github:
+        name: "Proper"
+        link: "https://github.com/DODO-unique/Proper"
+        unavailable: false
+      documentation:
+        name: "Releasing soon"
+        link: "about:blank"
+        unavailable: true
+      design:
+        name: "Releasing soon"
+        link: "about:blank"
+        unavailable: true
+
+    thumbnail: true
+    thumbnail_img: "/images/exp-003.webp"
+    order: 3
+
+
+
+    completion: 100
+    reading_time: 5
+
+    notes: []
+
+
+
+
+#=================================================================================================================
+#                                   EXP-004 Creature Registry
+#=================================================================================================================
+
+  - id: "EXP-004"
+    slug: "creatureregistry"
+    name: "Creature Registry"
+    description: >
+      First demo porject to understand React and states.
+      Fundamental implementation of states and props.
+
+    status: "active" # active | inProgress | archived
+    featured: false
+    visibility: "public" # public | private | internal
+
+    version: "v0.1.0"
+
+    created: 2026-06-16
+    updated: 2026-06-16
+    published: 2026-06-16
+
+    category: ["website"] # optional
+    stack:
+      bundler: "Vite" # optional
+      frameworks: ["React"] # optional
+      platforms: # optional
+        web: # optional
+          frontend: ["Vercel"] # optional
+      languages: ["JavaScript"] # optional
+
+    topics: ["learning", "React", "Vanilla JS"]
+    series: ["demo"]
+
+    license: "MIT"
+
+    links:
+      website:
+        name: "Creature Registry"
+        link: "https://creature-registry.labs.briarcastle.com"
+        unavailable: false
+      github:
+        name: "creatureRegistry"
+        link: "https://github.com/DODO-unique/CreatureRegistry"
+        unavailable: false
+      documentation:
+        name: ""
+        link: "about:blank"
+        unavailable: true
+      design:
+        name: ""
+        link: "about:blank"
+        unavailable: true
+
+    thumbnail: true
+    thumbnail_img: "/images/exp-004.webp"
+    order: 4
+
+
+
+    completion: 100
+    reading_time: 5
+
+    notes: []
+
+
+
+#=================================================================================================================
+#                                   EXP-005 Caesar
+#=================================================================================================================
+
+  - id: "EXP-005"
+    slug: "july-caesar"
+    name: "Caesar"
+    description: ""
+
+    status: "active" # active | inProgress | archived
+    featured: false
+    visibility: "public" # public | private | internal
+
+    version: "0.1.1"
+
+    created: 2026-02-18
+    updated: 2026-02-19
+    published: 2026-02-19
+
+    category: [ "website" ]
+    stack:
+      frameworks: [pip]
+      third_party: # optional
+        libraries: [argparse, pyperclip] # optional
+      platforms: # optional
+        registry: [PyPI] # optional
+      languages: ["Python"] # optional
+
+    topics: []
+    series: [utility-tool]
+
+    license: "MIT"
+
+    links:
+      website:
+        name: "july-caesar"
+        link: "https://pypi.org/project/july-caesar/"
+        unavailable: false
+      github:
+        name: "Caesar"
+        link: "https://github.com/DODO-unique/caesar"
+        unavailable: false
+      documentation:
+        name: ""
+        link: "about:blank"
+        unavailable: true
+      design:
+        name: ""
+        link: "about:blank"
+        unavailable: true
+
+    thumbnail: true
+    thumbnail_img: "/images/exp-005.webp"
+    order: 5
+
+
+
+    completion: 100
+    reading_time: 5
+
+    notes: []
+
+
+# ==================================================================================
+#                              EXP-006 SEDES (featured)
+#===================================================================================
+
+  - id: "EXP-006"
+    slug: "sedes"
+    name: "SEDES"
+    description: ""
+
+    status: "active"
+    featured: true
+    visibility: "public"
+
+    version: "0.1.0"
+
+    created: 2026-07-07
+    updated: 2026-07-07
+    published: 2026-07-07
+
+    category: [ "website" ]
+    stack:
+      bundler: "Vite"
+      frameworks: ["React", "FastAPI"]
+      third_party:
+        libraries: [
+          fastapi (python),
+          uvicorn (python),
+          pydantic (python),
+          email-validator (python),
+          pillow (python),
+          sqlalchemy (python),
+          asyncpg (python),
+          cryptography (python),
+          bcrypt (python),
+          python-multipart (python),
+        ]
+        components: [        ]
+      platforms: # optional
+        web: # optional
+          backend: [Railway] # optional
+          frontend: [Vercel] # optional
+      languages: ["JavaScript", "Python"] # optional
+
+    topics: [learning]
+    series: [demo]
+
+    license: "MIT"
+
+    links:
+      website:
+        name: "SEDES"
+        link: "https://sedes.labs.briarcastle.com"
+        unavailable: false
+      github:
+        name: "SEDES"
+        link: "https://github.com/DODO-unique/sedes"
+        unavailable: false
+      documentation:
+        name: "Releasing soon"
+        link: "about:blank"
+        unavailable: true
+      design:
+        name: "Releasing soon"
+        link: "about:blank"
+        unavailable: true
+
+    thumbnail: true
+    thumbnail_img: "/images/exp-006.webp"
+    order: 6
+
+
+
+    completion: 80
+    reading_time: 10
+
+    notes: []
+
+
+# =================================================================================
+#                            EXP-007 Deferred (featured)
+# ================================================================================
+
+  - id: "EXP-007"
+    slug: "deferred"
+    name: "Deferred"
+    description: ""
+
+    status: "inProgress" # active | inProgress | archived
+    featured: true
+    visibility: "public" # public | private | internal
+
+    version: "0.1.0"
+
+    created: null
+    updated: null
+    published: null
+
+    category: []
+    stack:
+      frameworks: [
+        React,
+        FastAPI,
+        SQLAlchemy,
+        
+      ] # optional
+      third_party: # optional
+        libraries: [] # optional
+        components: [] # optional
+      platforms: # optional
+        web: # optional
+          backend: [] # optional
+          frontend: [] # optional
+        registry: [] # optional
+      languages: [] # optional
+
+    topics: []
+    series: []
+
+    license: ""
+
+    links:
+      website:
+        name: ""
+        link: "about:blank"
+        unavailable: false
+      github:
+        name: ""
+        link: "about:blank"
+        unavailable: false
+      documentation:
+        name: ""
+        link: "about:blank"
+        unavailable: false
+      design:
+        name: ""
+        link: "about:blank"
+        unavailable: false
+      demo: # optional
+        name: ""
+        link: "about:blank"
+        unavailable: false
+      npm: # optional
+        name: ""
+        link: "about:blank"
+        unavailable: false
+
+    thumbnail: false
+    thumbnail_img: ""
+    order: 0
+
+
+
+    completion: 0
+    reading_time: 0
+
+    notes: []
+
+
+#=================================================================================================================
+#                                   EXP-008 Waltz
+#=================================================================================================================
+
+  - id: "EXP-008"
+    slug: "waltz"
+    name: "Waltz"
+    description: >
+      An asynchronous, storage-agnostic, tokenized stateful authentication framework native to FastAPI.
+      Provides local auth, OAuth, and email verification with app routing hooks and an RPC bus for SDK APIs.
+
+    status: "inProgress"
+    featured: false
+    visibility: "public"
+
+    version: "0.1.0"
+
+    created: 2026-08-21
+    updated: 2026-08-21
+    published: null
+
+    category:
+      - library
+      - framework
+
+    stack:
+      bundler: null
+      frameworks:
+        - FastAPI
+        - Pytest
+      third_party:
+        libraries:
+          - pydantic
+      platforms:
+        registry: []
+      languages:
+        - Python
+
+    topics:
+      - Authentication
+      - FastAPI
+      - OAuth
+      - Asynchronous
+      - RPC
+
+    series:
+      - utility-tool
+
+    license: "MIT"
+
+    links:
+      website:
+        name: "Waltz"
+        link: "about:blank"
+        unavailable: true
+      github:
+        name: "Waltz"
+        link: "https://github.com/DODO-unique/waltz"
+        unavailable: false
+      documentation:
+        name: "Releasing soon"
+        link: "about:blank"
+        unavailable: true
+      design:
+        name: "Releasing soon"
+        link: "about:blank"
+        unavailable: true
+
+    thumbnail: false
+    thumbnail_img: "/images/exp-008.webp"
+    order: 8
+
+    completion: 75
+    reading_time: 5
+
+    notes:
+      - Currently running unit tests using Pytest.
+      - Planned implementation for projects like Deferred (EXP-007).
