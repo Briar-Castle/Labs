@@ -611,7 +611,7 @@ cards:
 
     thumbnail: false
     thumbnail_img: "/images/007.webp"
-    order: 0
+    order: 7
 
 
 
@@ -773,3 +773,82 @@ cards:
 
     notes:
       - "Requires Git and GitHub CLI (gh) authenticated via 'gh auth login'[cite: 2]."
+
+#=================================================================================================================
+#                                   EXP-010 About
+#=================================================================================================================
+
+  - id: "EXP-010"
+    slug: "about"
+    name: "About"
+    description: >
+      A portfolio-style landing page built as part of the Briar Castle series.
+
+    status: "inProgress"
+    featured: false
+    visibility: "public"
+
+    version: "0.0.0"
+
+    created: 2026-07-08
+    updated: 2026-08-21
+    published: null
+
+    category:
+      - website
+
+    stack:
+      bundler: "Vite"
+      frameworks:
+        - React
+      third_party:
+        libraries:
+          - gsap
+          - lenis
+        components:
+          - lucide-react
+      platforms:
+        web:
+          frontend:
+            - github Pages
+      languages:
+        - TypeScript
+        - HTML
+        - CSS
+
+    topics:
+      - Portfolio
+      - Landing Page
+      - Website
+
+    series:
+      - Briar Castle
+
+    license: ""
+
+    links:
+      website:
+        name: "About"
+        link: "https://resident.briarcastle.com"
+        unavailable: false
+      github:
+        name: "About"
+        link: "https://github.com/DODO-unique/About"
+        unavailable: false
+      documentation:
+        name: ""
+        link: "about:blank"
+        unavailable: true
+      design:
+        name: ""
+        link: "about:blank"
+        unavailable: true
+
+    thumbnail: false
+    thumbnail_img: "/images/010.webp"
+    order: 10
+
+    completion: 0
+    reading_time: 0
+
+    notes: []
