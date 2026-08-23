@@ -1,0 +1,76 @@
+cards:
+  - id: ""
+    slug: ""
+    name: ""
+    purpose: "" # optional
+    description: ""
+
+    status: "active" # active | inProgress | archived
+    featured: false
+    visibility: "public" # public | private | internal
+
+    version: ""
+
+    created: 2026-01-01
+    updated: 2026-01-01
+    published: 2026-01-01
+
+    category: []
+    stack:
+      bundler: "" # optional
+      frameworks: [] # optional
+      third_party: # optional
+        libraries: [] # optional
+        components: [] # optional
+      platforms: # optional
+        web: # optional
+          backend: [] # optional
+          frontend: [] # optional
+        registry: [] # optional
+      languages: [] # optional
+
+    topics: []
+    series: []
+
+    license: ""
+
+    links:
+      website:
+        name: ""
+        link: ""
+        unavailable: false
+      github:
+        name: ""
+        link: ""
+        unavailable: false
+      documentation:
+        name: ""
+        link: ""
+        unavailable: false
+      design:
+        name: ""
+        link: ""
+        unavailable: false
+      demo: # optional
+        name: ""
+        link: ""
+        unavailable: false
+      npm: # optional
+        name: ""
+        link: ""
+        unavailable: false
+
+    thumbnail: false
+    thumbnail_img: ""
+    order: 0
+
+    tags: []
+
+    repository:
+      stars: # optional
+      forks: # optional
+
+    completion: 0
+    reading_time: 0
+
+    notes: []
