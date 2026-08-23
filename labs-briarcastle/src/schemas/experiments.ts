@@ -2,6 +2,12 @@
 
 import { z } from "zod";
 
+const linksSchema = z.object({
+  name: z.string(),
+  link: z.url().optional(),
+  unavailable: z.boolean()
+})
+
 const StackSchema = z.object({
   bundler: z.string().optional(),
   frameworks: z.array(z.string()).optional(),
@@ -10,29 +16,27 @@ const StackSchema = z.object({
     libraries: z.array(z.string()).optional(),
     components: z.array(z.string()).optional(),
   }).optional(),
-    platforms: z.object({
-      web: z.object({
-        backend: z.array(z.string()).optional(),
-        frontend: z.array(z.string()).optional(),
-      }).optional(),
-      registry: z.array(z.string()).optional()
+  platforms: z.object({
+    web: z.object({
+      backend: z.array(z.string()).optional(),
+      frontend: z.array(z.string()).optional(),
     }).optional(),
-    languages: z.array(z.string()).optional(),
+    registry: z.array(z.string()).optional()
+  }).optional(),
+  languages: z.array(z.string()).optional(),
 });
 
 const ExperimentSchema = z.object({
   id: z.string(),
   slug: z.string(),
   name: z.string(),
-  purpose: z.string(),
   description: z.string(),
 
   status: z.enum([
     "active",
-    "in-progress",
+    "inProgress",
     "archived",
   ]),
-
   featured: z.boolean(),
   visibility: z.enum([
     "public",
@@ -42,12 +46,12 @@ const ExperimentSchema = z.object({
 
   version: z.string(),
 
-  created: z.string(),
-  updated: z.string(),
-  published: z.string(),
+  created: z.coerce.date(),
+  updated: z.coerce.date(),
+  published: z.coerce.date().nullable(),
 
   category: z.array(z.string()),
-  stack: z.array(StackSchema),
+  stack: StackSchema,
 
   topics: z.array(z.string()),
   series: z.array(z.string()),
@@ -55,29 +59,22 @@ const ExperimentSchema = z.object({
   license: z.string(),
 
   links: z.object({
-    website: z.string().optional(),
-    github: z.string().optional(),
-    documentation: z.string().optional(),
-    design: z.string().optional(),
-    demo: z.string().optional(),
-    npm: z.string().optional(),
-  }),
-
-  media: z.object({
-    thumbnail: z.string(),
-    banner: z.string(),
-    icon: z.string(),
+    website: linksSchema,
+    github: linksSchema,
+    documentation: linksSchema,
+    design: linksSchema,
+    demo: linksSchema.optional(),
+    npm: linksSchema.optional(),
   }),
 
   thumbnail: z.boolean(),
+  thumbnail_img: z.string(),
   order: z.number(),
-
-  tags: z.array(z.string()),
 
   repository: z.object({
     stars: z.any().optional(),
     forks: z.any().optional(),
-  }),
+  }).optional(),
 
   completion: z.number(),
   reading_time: z.number(),
