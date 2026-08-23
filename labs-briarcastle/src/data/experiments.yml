@@ -312,11 +312,11 @@ cards:
       First demo porject to understand React and states.
       Fundamental implementation of states and props.
 
-    status: "active" # active | inProgress | archived
+    status: "archived" # active | inProgress | archived
     featured: false
     visibility: "public" # public | private | internal
 
-    version: "v0.1.0"
+    version: "v2"
 
     created: 2026-06-16
     updated: 2026-06-16
@@ -339,7 +339,7 @@ cards:
     links:
       website:
         name: "Creature Registry"
-        link: "https://creature-registry.labs.briarcastle.com"
+        link: "http://archive.labs.briarcastle.com/CreatureRegistry"
         unavailable: false
       github:
         name: "creatureRegistry"
@@ -355,7 +355,7 @@ cards:
         unavailable: true
 
     thumbnail: true
-    thumbnail_img: "/images/exp-004.webp"
+    thumbnail_img: "/images/004.webp"
     order: 4
 
 
