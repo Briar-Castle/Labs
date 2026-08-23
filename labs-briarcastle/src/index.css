@@ -8,6 +8,33 @@
   --lightCoral: #EE808E;
   --tuscanSun: #EBC36C;
   --mintLeaf: #48B78A;
+  --albasterGrey: #D9D9D9;
+
+  --thirty-family: clamp(1.000rem, 2.500vw - 0.250rem, 2.000rem);
+  --twenty-family: clamp(0.812rem, 1.719vw - 0.047rem, 1.500rem);
+  --title-font-size: clamp(8.75rem, 25vw - 3.750rem, 18.75rem);
+  --orange-box-margin: clamp(1.312rem, 3.906vw - 0.641rem, 2.875rem);
+
+  /* mobile */
+  --title-font-size-mob: clamp(11.250rem, 27.273vw + 5.114rem, 18.750rem);
+  --thirty-family-mob: clamp(1.250rem, 3.636vw - -0.432rem, 2.250rem);
+  --twenty-family-mob: clamp(0.938rem, 2.045vw - -0.477rem, 1.500rem);
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  transition: scale 0.2s ease-out 0.2s;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
 }
 
 body {
