@@ -664,5 +664,82 @@ cards:
     reading_time: 5
 
     notes:
-      - Currently running unit tests using Pytest.
-      - Planned implementation for projects like Deferred (EXP-007).
+      - "Currently running unit tests using Pytest."
+      - "Planned implementation for projects like Deferred (EXP-007)."
+
+
+#=================================================================================================================
+#                                   EXP-009 Naissance
+#=================================================================================================================
+
+  - id: "EXP-009"
+    slug: "naissance"
+    name: "Naissance"
+    description: >
+      A CLI utility designed for automated Git repository initialization[cite: 2].
+      Creates local and remote GitHub repositories simultaneously using the GitHub CLI with zero interactive prompts[cite: 2].
+
+    status: "active"
+    featured: true
+    visibility: "public"
+
+    version: "2.0.1"
+
+    created: 2026-08-21
+    updated: 2026-08-21
+    published: 2026-08-21
+
+    category:
+      - utility-tool
+      - cli
+
+    stack:
+      frameworks: []
+      third_party:
+        libraries: []
+        components: []
+      platforms:
+        registry:
+          - PyPI
+      languages:
+        - Python
+
+    topics:
+      - CLI
+      - Git
+      - GitHub CLI
+      - Automation
+      - Repository Management
+
+    series:
+      - utility-tool
+
+    license: "MIT"
+
+    links:
+      website:
+        name: "naissance"
+        link: "https://pypi.org/project/naissance/"
+        unavailable: false
+      github:
+        name: "Naissance"
+        link: "https://github.com/DODO-unique/naissance"
+        unavailable: false
+      documentation:
+        name: ""
+        link: "about:blank"
+        unavailable: true
+      design:
+        name: ""
+        link: "about:blank"
+        unavailable: true
+
+    thumbnail: true
+    thumbnail_img: "/images/009.webp"
+    order: 9
+
+    completion: 100
+    reading_time: 5
+
+    notes:
+      - "Requires Git and GitHub CLI (gh) authenticated via 'gh auth login'[cite: 2]."
