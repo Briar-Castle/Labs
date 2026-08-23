@@ -80,7 +80,7 @@ cards:
         unavailable: true
     
     thumbnail: true
-    thumbnail_img: /images/exp-001.webp
+    thumbnail_img: /images/001.webp
     
 
     completion: 100
