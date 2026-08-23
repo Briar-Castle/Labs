@@ -367,18 +367,21 @@ cards:
 
 
 
-#=================================================================================================================
-#                                   EXP-005 Caesar
-#=================================================================================================================
+# ==================================================================================
+#                              EXP-005 Caesar
+#===================================================================================
 
   - id: "EXP-005"
     slug: "july-caesar"
     name: "Caesar"
-    description: ""
+    description: >
+      An interactive command-line utility for quickly converting text into
+      programmer-friendly variable naming conventions and copying the result
+      directly to the clipboard.
 
-    status: "active" # active | inProgress | archived
+    status: "active"
     featured: false
-    visibility: "public" # public | private | internal
+    visibility: "public"
 
     version: "0.1.1"
 
@@ -386,17 +389,32 @@ cards:
     updated: 2026-02-19
     published: 2026-02-19
 
-    category: [ "website" ]
-    stack:
-      frameworks: [pip]
-      third_party: # optional
-        libraries: [argparse, pyperclip] # optional
-      platforms: # optional
-        registry: [PyPI] # optional
-      languages: ["Python"] # optional
+    category:
+      - utility-tool
+      - cli
 
-    topics: []
-    series: [utility-tool]
+    stack:
+      frameworks:
+        - pip
+      third_party:
+        libraries:
+          - pyperclip
+      platforms:
+        registry:
+          - PyPI
+      languages:
+        - Python
+
+    topics:
+      - CLI
+      - Variable Naming
+      - Case Conversion
+      - Developer Tool
+      - Clipboard
+      - Python
+
+    series:
+      - utility-tool
 
     license: "MIT"
 
@@ -419,16 +437,18 @@ cards:
         unavailable: true
 
     thumbnail: true
-    thumbnail_img: "/images/exp-005.webp"
+    thumbnail_img: "/images/005.webp"
     order: 5
-
-
 
     completion: 100
     reading_time: 5
 
-    notes: []
-
+    notes:
+      - "Supports snake case, camel case, and Pascal case formatting."
+      - "Quick mode is available through the -q / --quick flag."
+      - "Formatted output is copied directly to the clipboard."
+      - "Requires Python 3.8 or newer."
+      - "Uses pyperclip for clipboard operations."
 
 # ==================================================================================
 #                              EXP-006 SEDES (featured)
