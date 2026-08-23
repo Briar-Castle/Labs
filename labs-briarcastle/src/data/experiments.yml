@@ -15,7 +15,7 @@ cards:
     featured: false
     visibility: public
 
-    version: v0.1.0
+    version: v0.1.2
 
     # Timeline
 
@@ -68,7 +68,7 @@ cards:
         unavailable: false
       github: 
         name: BriarCastle
-        link: "https://github.com/DODO-unique/BriarCastle"
+        link: "https://github.com/DODO-unique/BriarCastle-homepage"
         unavailable: false
       documentation: 
         name: "[Releasing soon]"
