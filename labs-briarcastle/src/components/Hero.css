@@ -1,0 +1,77 @@
+.hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 69vw;
+}
+
+.above-title {
+    margin: 0;
+    margin-bottom: -1em;
+    align-self: flex-end;
+}
+
+.below-title {
+    right: 0;
+}
+
+.title-ribbon-alignment-box {
+    position: relative;
+    border: 1px solid red;
+    min-height: 52.7vh;
+    min-width: 69vw;
+}
+.title {
+    transform: translateX(-0.085em) translateY(-0.235em);
+    margin: 0;
+    font-family: 'Unica One';
+    font-size: 18.75rem;
+    color: var(--softBlush);
+    position: absolute;
+}
+
+.orange-box {
+    box-sizing: border-box;
+    background-color: var(--burntPeach);
+    min-height: 50vh;
+    width: 23rem;
+    position: absolute;
+    z-index: -1;
+    padding-top: 12rem;
+
+    font-family: 'PT Mono';
+    color: var(--softBlush);
+/* 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; */
+}
+
+.quick-stats-total {
+    margin: 50px 0 50px; 
+    font-size: 2rem;
+}
+
+.quick-stats-metrics {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.quick-stats-last-updated {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.scroll-pointer {
+    position: absolute;
+} 
