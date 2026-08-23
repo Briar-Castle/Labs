@@ -600,7 +600,7 @@ cards:
       Provides local auth, OAuth, and email verification with app routing hooks and an RPC bus for SDK APIs.
 
     status: "inProgress"
-    featured: false
+    featured: true
     visibility: "public"
 
     version: "0.1.0"
@@ -614,15 +614,12 @@ cards:
       - framework
 
     stack:
-      bundler: null
       frameworks:
         - FastAPI
         - Pytest
       third_party:
         libraries:
           - pydantic
-      platforms:
-        registry: []
       languages:
         - Python
 
@@ -657,7 +654,7 @@ cards:
         unavailable: true
 
     thumbnail: false
-    thumbnail_img: "/images/exp-008.webp"
+    thumbnail_img: "/images/008.webp"
     order: 8
 
     completion: 75
