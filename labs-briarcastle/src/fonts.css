@@ -54,10 +54,18 @@
 
 @font-face {
     font-family: 'Funnel Sans';
-    src: url('assets/fonts/FunnelSans-LightItalic.woff2') format('woff2'),
-        url('assets/fonts/FunnelSans-LightItalic.woff') format('woff');
+    src: url('assets/fonts/FunnelSans-Regular.woff2') format('woff2'),
+        url('assets/fonts/FunnelSans-Regular.woff') format('woff');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'DM Mono';
+    src: url('assets/fonts/DMMono-Regular.woff2') format('woff2'),
+        url('assets/fonts/DMMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
