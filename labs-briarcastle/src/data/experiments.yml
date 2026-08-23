@@ -788,7 +788,7 @@ cards:
     featured: false
     visibility: "public"
 
-    version: "0.0.0"
+    version: "0.0.1"
 
     created: 2026-07-08
     updated: 2026-08-21
@@ -851,4 +851,5 @@ cards:
     completion: 0
     reading_time: 0
 
-    notes: []
+    notes:
+    - "Deployed but needs review and content updates."
