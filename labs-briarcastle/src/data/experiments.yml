@@ -111,7 +111,7 @@ cards:
     featured: false
     visibility: public       # public | private | internal
 
-    version: v0.1.0
+    version: v0.1.1
 
 
 
@@ -191,7 +191,7 @@ cards:
     # Display
 
     thumbnail: true
-    thumbnail_img: /images/exp-001.webp
+    thumbnail_img: /images/002.webp
 
     # Search / Filters
 
@@ -220,10 +220,10 @@ cards:
       A markdown parser created to convert markdown files into printable html in bulk.
 
     status: "active"
-    featured: true
+    featured: false
     visibility: "public"
 
-    version: "v0.1.0"
+    version: "v1.0.1"
 
     created: 2026-06-15
     updated: 2026-06-19
@@ -288,7 +288,7 @@ cards:
         unavailable: true
 
     thumbnail: true
-    thumbnail_img: "/images/exp-003.webp"
+    thumbnail_img: "/images/003.webp"
     order: 3
 
 
