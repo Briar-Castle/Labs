@@ -437,10 +437,12 @@ cards:
   - id: "EXP-006"
     slug: "sedes"
     name: "SEDES"
-    description: ""
+    description: >
+      A web application for performing Least Significant Bit (LSB) steganography on PNG images.
+      Provides secure encoding and decoding of hidden messages within images, supported by a React frontend and a FastAPI backend.
 
     status: "active"
-    featured: true
+    featured: false
     visibility: "public"
 
     version: "0.1.0"
@@ -449,7 +451,7 @@ cards:
     updated: 2026-07-07
     published: 2026-07-07
 
-    category: [ "website" ]
+    category: [ "website", "utility-tool" ]
     stack:
       bundler: "Vite"
       frameworks: ["React", "FastAPI"]
@@ -466,15 +468,23 @@ cards:
           bcrypt (python),
           python-multipart (python),
         ]
-        components: [        ]
+        components: [
+          react-router-dom,
+        ]
       platforms: # optional
         web: # optional
           backend: [Railway] # optional
           frontend: [Vercel] # optional
       languages: ["JavaScript", "Python"] # optional
 
-    topics: [learning]
-    series: [demo]
+    topics:
+      - Steganography
+      - Security
+      - FastAPI
+      - React
+      - LSB
+
+    series: [demo, utility-tool]
 
     license: "MIT"
 
@@ -497,7 +507,7 @@ cards:
         unavailable: true
 
     thumbnail: true
-    thumbnail_img: "/images/exp-006.webp"
+    thumbnail_img: "/images/006.webp"
     order: 6
 
 
@@ -505,7 +515,9 @@ cards:
     completion: 80
     reading_time: 10
 
-    notes: []
+    notes:
+      - "Implements Least Significant Bit (LSB) substitution for hiding messages in PNG images."
+      - "Full-stack application using FastAPI and React."
 
 
 # =================================================================================
