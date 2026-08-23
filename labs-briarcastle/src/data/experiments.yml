@@ -515,10 +515,11 @@ cards:
   - id: "EXP-007"
     slug: "deferred"
     name: "Deferred"
-    description: ""
+    description: >
+      Scheduling service. In Progress. Uses Waltz.
 
     status: "inProgress" # active | inProgress | archived
-    featured: true
+    featured: false
     visibility: "public" # public | private | internal
 
     version: "0.1.0"
@@ -554,30 +555,30 @@ cards:
       website:
         name: ""
         link: "about:blank"
-        unavailable: false
+        unavailable: true
       github:
         name: ""
         link: "about:blank"
-        unavailable: false
+        unavailable: true
       documentation:
         name: ""
         link: "about:blank"
-        unavailable: false
+        unavailable: true
       design:
         name: ""
         link: "about:blank"
-        unavailable: false
+        unavailable: true
       demo: # optional
         name: ""
         link: "about:blank"
-        unavailable: false
+        unavailable: true
       npm: # optional
         name: ""
         link: "about:blank"
-        unavailable: false
+        unavailable: true
 
     thumbnail: false
-    thumbnail_img: ""
+    thumbnail_img: "/images/007.webp"
     order: 0
 
 
