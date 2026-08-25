@@ -2,8 +2,7 @@ import { experiments } from "./lib/loadYaml"
 import Hero from "./components/Hero"
 import { manifest } from "./lib/loadYaml"
 import Body from "./components/Body"
-import { useEffect } from "react"
-import LenisProvider from './components/Scroll.tsx';
+import LenisProvider from './components/Scroll.tsx'
 // import type { Experiments, Experiment } from "./schemas/experiments";
 
 let active: number = 0

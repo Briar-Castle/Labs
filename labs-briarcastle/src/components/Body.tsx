@@ -133,21 +133,21 @@ export default function Body() {
                                         </div>
                                     </div>
                                     <div className="card-footer">
-                                        <button className={`src-git ${experiment.links.github.unavailable ? "no-access" : ""}`} onClick={() => openLink(experiment.links.github.link)}>
+                                        <button className={`src-git ${experiment.links.github.unavailable ? "no-access" : ""}`} onClick={() => openLink( typeof experiment.links.github.link === "undefined" ? "" : experiment.links.github.link)}>
                                             <p> {experiment.links.github.name}</p>
                                             <div className="image-container">
                                                 <img className="src-git-img" src={octoCat} />
 
                                             </div>
                                         </button>
-                                        <button className={`src-docs ${experiment.links.documentation?.unavailable ? "no-access" : ""}`} onClick={() => openLink(experiment.links.documentation.link)} disabled>
+                                        <button className={`src-docs ${experiment.links.documentation?.unavailable ? "no-access" : ""}`} onClick={() => openLink(typeof experiment.links.documentation.link === "undefined" ? "" : experiment.links.documentation.link)} disabled>
                                             <p> {experiment.links.documentation.name}</p>
                                             <div className="image-container">
                                                 <img className="src-docs-img" src={fileIcon} />
 
                                             </div>
                                         </button>
-                                        <button className={`src-site ${experiment.links.website?.unavailable ? "no-access" : ""}`} onClick={() => openLink(experiment.links.website.link)}>
+                                        <button className={`src-site ${experiment.links.website?.unavailable ? "no-access" : ""}`} onClick={() => openLink(typeof experiment.links.website.link === "undefined" ? "" : experiment.links.website.link)}>
                                             <p> {experiment.links.website.name}</p>
                                             <div className="image-container">
                                                 <img className="src-site-img" src={arrowUp} />
