@@ -80,7 +80,7 @@ cards:
         unavailable: true
     
     thumbnail: true
-    thumbnail_img: /images/001.webp
+    thumbnail_img: /src/assets/thumbnails/001.webp
     
 
     completion: 100
@@ -191,7 +191,7 @@ cards:
     # Display
 
     thumbnail: true
-    thumbnail_img: /images/002.webp
+    thumbnail_img: /src/assets/thumbnails/002.webp
 
     # Search / Filters
 
@@ -288,7 +288,7 @@ cards:
         unavailable: true
 
     thumbnail: true
-    thumbnail_img: "/images/003.webp"
+    thumbnail_img: "/src/assets/thumbnails/003.webp"
     order: 3
 
 
@@ -355,7 +355,7 @@ cards:
         unavailable: true
 
     thumbnail: true
-    thumbnail_img: "/images/004.webp"
+    thumbnail_img: "/src/assets/thumbnails/004.webp"
     order: 4
 
 
@@ -437,7 +437,7 @@ cards:
         unavailable: true
 
     thumbnail: true
-    thumbnail_img: "/images/005.webp"
+    thumbnail_img: "/src/assets/thumbnails/005.webp"
     order: 5
 
     completion: 100
@@ -527,7 +527,7 @@ cards:
         unavailable: true
 
     thumbnail: true
-    thumbnail_img: "/images/006.webp"
+    thumbnail_img: "/src/assets/thumbnails/006.webp"
     order: 6
 
 
@@ -610,7 +610,7 @@ cards:
         unavailable: true
 
     thumbnail: false
-    thumbnail_img: "/images/007.webp"
+    thumbnail_img: "/src/assets/thumbnails/007.webp"
     order: 7
 
 
@@ -687,7 +687,7 @@ cards:
         unavailable: true
 
     thumbnail: false
-    thumbnail_img: "/images/008.webp"
+    thumbnail_img: "/src/assets/thumbnails/008.webp"
     order: 8
 
     completion: 75
@@ -765,7 +765,7 @@ cards:
         unavailable: true
 
     thumbnail: true
-    thumbnail_img: "/images/009.webp"
+    thumbnail_img: "/src/assets/thumbnails/009.webp"
     order: 9
 
     completion: 100
@@ -845,7 +845,7 @@ cards:
         unavailable: true
 
     thumbnail: false
-    thumbnail_img: "/images/010.webp"
+    thumbnail_img: "/src/assets/thumbnails/010.webp"
     order: 10
 
     completion: 0
