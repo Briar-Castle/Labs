@@ -202,7 +202,7 @@ cards:\r
         unavailable: true\r
     \r
     thumbnail: true\r
-    thumbnail_img: /src/assets/thumbnails/001.webp\r
+    thumbnail_img: /assets/thumbnails/001.webp\r
     \r
 \r
     completion: 100\r
@@ -313,7 +313,7 @@ cards:\r
     # Display\r
 \r
     thumbnail: true\r
-    thumbnail_img: /src/assets/thumbnails/002.webp\r
+    thumbnail_img: /assets/thumbnails/002.webp\r
 \r
     # Search / Filters\r
 \r
@@ -410,7 +410,7 @@ cards:\r
         unavailable: true\r
 \r
     thumbnail: true\r
-    thumbnail_img: "/src/assets/thumbnails/003.webp"\r
+    thumbnail_img: "/assets/thumbnails/003.webp"\r
     order: 3\r
 \r
 \r
@@ -477,7 +477,7 @@ cards:\r
         unavailable: true\r
 \r
     thumbnail: true\r
-    thumbnail_img: "/src/assets/thumbnails/004.webp"\r
+    thumbnail_img: "/assets/thumbnails/004.webp"\r
     order: 4\r
 \r
 \r
@@ -559,7 +559,7 @@ cards:\r
         unavailable: true\r
 \r
     thumbnail: true\r
-    thumbnail_img: "/src/assets/thumbnails/005.webp"\r
+    thumbnail_img: "/assets/thumbnails/005.webp"\r
     order: 5\r
 \r
     completion: 100\r
@@ -649,7 +649,7 @@ cards:\r
         unavailable: true\r
 \r
     thumbnail: true\r
-    thumbnail_img: "/src/assets/thumbnails/006.webp"\r
+    thumbnail_img: "/assets/thumbnails/006.webp"\r
     order: 6\r
 \r
 \r
@@ -732,7 +732,7 @@ cards:\r
         unavailable: true\r
 \r
     thumbnail: false\r
-    thumbnail_img: "/src/assets/thumbnails/007.webp"\r
+    thumbnail_img: "/assets/thumbnails/007.webp"\r
     order: 7\r
 \r
 \r
@@ -809,7 +809,7 @@ cards:\r
         unavailable: true\r
 \r
     thumbnail: false\r
-    thumbnail_img: "/src/assets/thumbnails/008.webp"\r
+    thumbnail_img: "/assets/thumbnails/008.webp"\r
     order: 8\r
 \r
     completion: 75\r
@@ -887,7 +887,7 @@ cards:\r
         unavailable: true\r
 \r
     thumbnail: true\r
-    thumbnail_img: "/src/assets/thumbnails/009.webp"\r
+    thumbnail_img: "/assets/thumbnails/009.webp"\r
     order: 9\r
 \r
     completion: 100\r
@@ -967,7 +967,7 @@ cards:\r
         unavailable: true\r
 \r
     thumbnail: false\r
-    thumbnail_img: "/src/assets/thumbnails/010.webp"\r
+    thumbnail_img: "/assets/thumbnails/010.webp"\r
     order: 10\r
 \r
     completion: 0\r
