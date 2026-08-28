@@ -1,5 +1,5 @@
 import downArrow from '../assets/downArrow.svg';
-import './Hero_re.css'
+import './Hero.css'
 
 export default function Hero ({ active, inProgress, archive, totalExperiments, lastUpdated }: { active: number, inProgress: number, archive: number, totalExperiments: number, lastUpdated: Date}) {
     const formattedActive = active.toString().padStart(2, "0");
