@@ -1,0 +1,219 @@
+.hero {
+    user-select: none;
+    width: auto;
+    height: 100vh;
+    animation: fade-up 0.8s ease-out both;
+}
+
+.hero,
+.title-block,
+.title-ribbon-alignment-box,
+.orange-box,
+.above-title,
+.below-title,
+.title-orange,
+.title,
+.quick-stats-total,
+.quick-stats-metrics,
+.quick-stats-last-updated,
+.quick-stats,
+.scroll-pointer {
+    animation: fade-up 0.8s ease-out both;
+}
+
+.title-block {
+    animation-delay: 0.05s;
+    position: relative;
+    padding: clamp(3.750rem, 25.469vw - 8.984rem, 13.938rem) clamp(1.562rem, 1.719vw + 0.703rem, 2.250rem) 0;
+    display: flex;
+    justify-content: center;
+    min-width: auto;
+    color: var(--softBlush);
+}
+
+@media (min-width: 1440px) {
+    .title-block {
+        margin-left: calc((100vw - 1440px)/2 + 36px);
+        margin-right: calc((100vw - 1440px)/2 + 36px);
+    }
+}
+
+@media (min-height: 1024px) and (min-width: 1440px) {
+    .title-block {
+        padding-top: calc((100vw - 1440px)/2 + 223px);
+    }
+}
+
+.title-ribbon-alignment-box {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: repeat(3, auto) 1fr;
+    animation-delay: 0.1s;
+}
+
+/* .right-grid-box {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+} */
+
+.above-title {
+    grid-row: 1;
+    grid-column: 2;
+    position: relative;
+    text-align: right;
+    margin: 0;
+    margin-bottom: -0.2em;
+    font-size: var(--thirty-family);
+    font-family: 'Instrument Serif';
+    z-index: 2;
+    animation-delay: 0s;
+}
+
+.briar-castle-link {
+    color: var(--dustyDenim) !important;
+}
+
+
+.below-title {
+    grid-column: 2;
+    grid-row: 3;
+    text-align: right;
+    margin: 0;
+    font-size: var(--twenty-family);
+    font-family: 'Instrument Sans';
+    margin-top: 2em;
+    animation-delay: 0.5s;
+}
+
+
+.title-orange,
+.title {
+    line-height: 0.71;
+    margin: 0;
+    font-family: 'Unica One';
+    font-size: var(--title-font-size);
+    animation-delay: 0.3s;
+}
+
+.title {
+    grid-row: 2;
+    grid-column: 2;
+    position: relative;
+    /* avoid translate. Ask how to crop a text field */
+    z-index: 1;
+}
+
+.title-orange {
+    margin-left: -0.082em;
+    margin-right: -0.07em;
+}
+
+.orange-box {
+    background-color: var(--burntPeach);
+    grid-column: 1;
+    grid-row: span 4;
+    box-sizing: border-box;
+    top: 0;
+    width: auto;
+    height: auto;
+    padding-top: calc(var(--thirty-family));
+    font-family: 'PT Mono';
+    animation-delay: 0s;
+}
+
+.quick-stats-total {
+    margin: 10px 0;
+    font-size: var(--thirty-family);
+    animation-delay: 0.5s;
+}
+
+.quick-stats-metrics {
+    margin: var(--orange-box-margin) 0;
+    font-size: var(--twenty-family);
+    animation-delay: 0.7s;
+}
+
+.quick-stats-last-updated {
+    font-size: var(--twenty-family);
+    margin-bottom: 0;
+    text-align: right;
+    animation-delay: 0.7s;
+}
+
+.scroll-pointer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 3vw;
+    animation-delay: 0.25s;
+}
+
+.scroll-pointer img {
+    width: clamp(2.5rem, 5vw, 4.8rem);
+    height: auto;
+}
+
+
+@media (max-width: 800px) {
+    .title-block {
+        padding-top: clamp(5.500rem, 14.091vw + 2.330rem, 9.375rem);
+    }
+
+    .title-ribbon-alignment-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-orange {
+        font-size: var(--title-font-size-mob);
+    }
+
+    .above-title,
+    .quick-stats-total {
+        font-size: var(--thirty-family-mob);
+    }
+
+    .quick-stats-last-updated,
+    .quick-stats-metrics {
+        font-size: var(--twenty-family-mob);
+    }
+
+    .below-title {
+        margin-top: clamp(1.875rem, 6.818vw - 0.341rem, 3.750rem);
+        text-align: center;
+        font-size: var(--twenty-family-mob);
+    }
+
+    .title {
+        display: none;
+    }
+
+    .scroll-pointer {
+        position: static;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        margin-top: clamp(4.375rem, -12.273vw + 7.136rem, 1.000rem);
+    }
+
+    .scroll-pointer img {
+        width: clamp(2rem, 8vw, 3rem);
+    }
+}
+
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
