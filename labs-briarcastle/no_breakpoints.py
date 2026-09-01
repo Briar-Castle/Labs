@@ -1,6 +1,6 @@
 import pyperclip
 
-print("\n ----------- for 360px to 1440px (much more general) ------------- \n")
+print("\n ----------- for 800px to 1440px (much more general) ------------- \n")
 
 mini = int(input("Minimum Value (pixel): "))
 maxi = int(input("Maximum Value (pixel): "))
@@ -8,7 +8,7 @@ maxi = int(input("Maximum Value (pixel): "))
 
 Diff = maxi - mini
 
-growth_ratio = (Diff / 1080)*100
+growth_ratio = (Diff / 640)*100
 
 extra_pixel = (growth_ratio * 360) / 100
 
