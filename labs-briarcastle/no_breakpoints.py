@@ -10,7 +10,7 @@ Diff = maxi - mini
 
 growth_ratio = (Diff / 640)*100
 
-extra_pixel = (growth_ratio * 360) / 100
+extra_pixel = (growth_ratio * 800) / 100
 
 print(f"Growth Ratio: {growth_ratio} \n Extra Pixel: {extra_pixel}")
 
