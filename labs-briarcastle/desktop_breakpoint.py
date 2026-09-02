@@ -1,6 +1,6 @@
 import pyperclip
 
-print("\n ----------- for 800px to 1440px (much more general) ------------- \n")
+print("\n ----------- for 800px to 1440px ------------- \n")
 
 mini = int(input("Minimum Value (pixel): "))
 maxi = int(input("Maximum Value (pixel): "))
